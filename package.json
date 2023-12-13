@@ -1,0 +1,63 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.25.0",
+    "browser-sync": "^2.27.10",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^7.0",
+    "laravel-mix": "^6.0.41",
+    "lodash": "^4.17.19",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@lgaitan/pace-progress": "^1.0.7",
+    "@sweetalert2/theme-bootstrap-4": "^4.0.5",
+    "@ttskch/select2-bootstrap4-theme": "^1.5.2",
+    "bootstrap": "^4.6.0",
+    "bootstrap4-toggle": "^3.6.1",
+    "datatables.net-bs4": "^1.11.2",
+    "datatables.net-buttons-bs4": "^1.7.1",
+    "frappe-charts": "^1.6.2",
+    "icheck-bootstrap": "^3.0.1",
+    "jquery": "^3.6.0",
+    "jquery-filepond": "^1.0.0",
+    "overlayscrollbars": "^1.13.1",
+    "popper.js": "^1.16.0",
+    "select2": "^4.0.13",
+    "summernote": "^0.8.18",
+    "summernote-image-attributes-editor": "^1.2.1",
+    "sweetalert2": "^10.16.9",
+    "toastr": "^2.1.4"
+  },
+  "name": "protidinhasina",
+  "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dvkfmbfct/image/upload/v1593146311/logo-laramagz-_h3gnfo.svg\" width=\"400\"></p>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahixccr/protidinhasina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahixccr/protidinhasina/issues"
+  },
+  "homepage": "https://github.com/rahixccr/protidinhasina#readme"
+}

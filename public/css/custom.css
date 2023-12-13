@@ -1,0 +1,378 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+p {
+    margin: 0;
+    color: #3a3a3a;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    outline: none !important;
+    /* font-family: $primary-font; */
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: 0 none;
+    /* font-family: $primary-font; */
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+i {
+    font-family: "fontawesome";
+    font-style: inherit;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+input:focus {
+    outline: 0;
+    box-shadow: none;
+    background: none;
+}
+textarea:focus {
+    border: 1px solid transparent !important;
+    box-shadow: none;
+    border-radius: 0 !important;
+    outline-color: #345995 !important;
+}
+
+blockquote {
+    padding: 25px 35px;
+    margin-left: 30px;
+    background: #f5f5f5;
+    margin: 30px 0 30px 30px;
+    -webkit-box-shadow: -5px 0 #232323;
+    -ms-box-shadow: -5px 0 #232323;
+    box-shadow: -5px 0 #232323;
+}
+
+blockquote p:last-child {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+/* @-webkit-keyframes autofill {
+  to {
+    color: inherit;
+    background: transparent;
+  }
+} */
+input:disabled {
+    background: #cccccc70 !important;
+}
+/* input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+} */
+.section-padding {
+    padding: 80px 0;
+}
+.short-section-padding {
+    padding: 50px 0;
+}
+input[type="submit"] {
+    cursor: pointer;
+    background: #e62d26;
+}
+input[type="submit"]:focus {
+    background: #e62d26;
+    outline: none;
+}
+.no-padding {
+    padding: 0;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-27 {
+    margin-top: 27px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.white-bg {
+    background-color: #fff;
+}
+.section-padding-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* .section-bg {
+  background: $sectionBg;
+}
+.black-bg {
+  background-color: $black-bg;
+} */
+.section-padding {
+    padding: 60px 0;
+}
+.section-padding-top {
+    padding-top: 60px;
+}
+.section-padding-bottom {
+    padding-bottom: 50px;
+}
+.row--aligned [class*="col-"] {
+    display: flex;
+}
+.mb-100-percent {
+    padding-bottom: 100%;
+}
+
+.calendar {
+    background: #2b4450;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    perspective: 1000;
+    transition: 0.9s;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+
+.month-year {
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 300;
+    color: #94a3b8;
+    text-align: center;
+}
+
+.year {
+    margin-left: 4px;
+    color: #cbd5e1;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.day-label {
+    color: #dfebed;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 4.1%;
+}
+
+@media screen and (max-width: 1400px) {
+    .day-label {
+        padding: 5.3%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .day-label {
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .day-label {
+        padding: 5.3%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .day-label {
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 604px) {
+    .day-label {
+        padding: 4.9%;
+    }
+}
+
+.day {
+    position: relative;
+    flex-basis: calc(14.286% - 2px);
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.2em;
+    font-weight: 300;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    padding: 5.6%;
+}
+
+.day.dull {
+    color: #94a3b8;
+}
+
+.day.today {
+    color: #0ea5e9;
+    font-weight: 600;
+}
+
+.day::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.day:hover {
+    color: deepskyblue;
+}
+
+.day .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card {
+    width: 100%;
+    height: 100%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    top: 38%;
+    position: absolute;
+}
+.flip-card-back img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Style the back side */
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/*nav bar*/
+.footer .icons {
+    margin-top: 10px;
+}
+
+section.gallery.first {
+    padding-top: 5%;
+}

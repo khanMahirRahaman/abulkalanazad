@@ -1,0 +1,361 @@
+/**
+ * CSS For Safari Browser
+ */
+/*
+ * Variable
+ */
+/* Colors */
+/*
+ * Import Fonts
+ *
+ * Font Name: Lato, Raleway
+ */
+/* Lato Hariline */
+@font-face {
+  font-family: "Lato";
+  font-weight: 100;
+  src: url(../fonts/Lato-Hairline.ttf?7113c6e96dc218b107bc8752ad37e978);
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 100;
+  font-style: italic;
+  src: url(../fonts/Lato-HairlineItalic.ttf?6340a31b7e515b0b955ea51570adfa9a);
+}
+/* End Lato Hariline */
+/* Lato Light */
+@font-face {
+  font-family: "Lato";
+  font-weight: 200;
+  src: url(../fonts/Lato-Light.ttf?bd895b1eb9ced18d8ce652d63a834f41);
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 200;
+  font-style: italic;
+  src: url(../fonts/Lato-LightItalic.ttf?929a79de65192edd4e8837e4c9435e7f);
+}
+/* End Lato Light */
+/* Lato Regular */
+@font-face {
+  font-family: "Lato";
+  font-weight: 300;
+  src: url(../fonts/Lato-Regular.ttf?79164ee524feb6583a945d26a0ed9feb);
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 300;
+  font-style: italic;
+  src: url(../fonts/Lato-Italic.ttf?9c78378493b151adf24402026beff88a);
+}
+/* End Lato Regular */
+/* Lato Bold */
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  src: url(../fonts/Lato-Bold.ttf?401bd636a7027c695b084800aa6e31c5);
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/Lato-BoldItalic.ttf?f9d1ae3ef26c61251a017040bf1ee8d8);
+}
+/* End Lato Bold */
+/* Lato Black */
+@font-face {
+  font-family: "Lato";
+  font-weight: 500;
+  src: url(../fonts/Lato-Black.ttf?e5c10b5f2dd0f93e72d3d4c91b84b1e1);
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 500;
+  font-style: italic;
+  src: url(../fonts/Lato-BlackItalic.ttf?bd2bad5cf3be6dbc8a3aba3e6fd53d3e);
+}
+/* End Lato Black */
+/* Raleway Thin */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 100;
+  src: url(../fonts/Raleway-Thin.ttf?d1f120588966cbbaffd9a296b897f80e);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 100;
+  font-style: italic;
+  src: url(../fonts/Raleway-ThinItalic.ttf?7bd028dbb8ed72560f43ed164dbe09ce);
+}
+/* End Raleway Thin */
+/* Raleway ExtraLight */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 200;
+  src: url(../fonts/Raleway-ExtraLight.ttf?79046b326aac3deaf1ea5a61d38eef98);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 200;
+  font-style: italic;
+  src: url(../fonts/Raleway-ExtraLightItalic.ttf?ffb1a4a453a1897c02be59a147fa8ed2);
+}
+/* End Raleway ExtraLight */
+/* Raleway Light */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 300;
+  src: url(../fonts/Raleway-Light.ttf?b1f782b7717d75963d4ac736a06ceb23);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-style: italic;
+  src: url(../fonts/Raleway-LightItalic.ttf?a9543c48e469789e54eef8bbfbfa0225);
+}
+/* End Raleway Light */
+/* Raleway Regular */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: url(../fonts/Raleway-Regular.ttf?c268e80ba67c4a2940545dabc4166c6d);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/Raleway-Italic.ttf?44af61a0ca146385307f6e299937e917);
+}
+/* End Raleway Regular */
+/* Raleway Medium */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  src: url(../fonts/Raleway-Medium.ttf?67dbd97b51333b7ddc93d7837596c1c8);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-style: italic;
+  src: url(../fonts/Raleway-MediumItalic.ttf?bffc0c76336e42f28f79bed56380b81a);
+}
+/* End Raleway Medium */
+/* Raleway SemiBold */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: url(../fonts/Raleway-SemiBold.ttf?92cc605b66b78b8530f2f7a550d93fd3);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-style: italic;
+  src: url(../fonts/Raleway-SemiBoldItalic.ttf?140f53911fa22e2af8e71e39472c44f1);
+}
+/* End Raleway SemiBold */
+/* Raleway Bold */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  src: url(../fonts/Raleway-Bold.ttf?cefd37fb7d1d62c51b2024b096e78bb1);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/Raleway-BoldItalic.ttf?bc97a2d577021d8af38dc765a242ecee);
+}
+/* End Raleway Bold */
+/* Raleway ExtraBold */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 800;
+  src: url(../fonts/Raleway-ExtraBold.ttf?ce7b4cc718503c2ba39ffd133b36d9e2);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/Raleway-ExtraBoldItalic.ttf?79108315e52aa46b4387afa29cb405e5);
+}
+/* End Raleway ExtraBold */
+/* Raleway Black */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 900;
+  src: url(../fonts/Raleway-Black.ttf?f8326789442b4f02f44987407fd56934);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-style: italic;
+  src: url(../fonts/Raleway-BlackItalic.ttf?5203cf7f3acb7d9eccdfa827eef43a02);
+}
+/* End Raleway Black */
+/* Merriweather */
+@font-face {
+  font-family: "Merriweather";
+  font-weight: 300;
+  src: url(../fonts/Merriweather-Light.ttf?a1925e8a2ee87bf39d42fc984dc5866f);
+}
+@font-face {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-style: italic;
+  src: url(../fonts/Merriweather-LightItalic.ttf?7110a89ddb52e234d57f3a529ce9a27a);
+}
+@font-face {
+  font-family: "Merriweather";
+  font-weight: 400;
+  src: url(../fonts/Merriweather-Regular.ttf?b40a698733d4f5a5def84c207332ac14);
+}
+@font-face {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/Merriweather-Italic.ttf?851cbe646cf92490922467706bc0a5ab);
+}
+@font-face {
+  font-family: "Merriweather";
+  font-weight: 700;
+  src: url(../fonts/Merriweather-Bold.ttf?034b27e8fb19b3f3b545dd9238916ca7);
+}
+@font-face {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/Merriweather-BoldItalic.ttf?c5a0f2a4fc859a2e45b0425aa2eab266);
+}
+@font-face {
+  font-family: "Merriweather";
+  font-weight: 900;
+  src: url(../fonts/Merriweather-Black.ttf?2b72c46ee3c0a73c7b485a576e13c848);
+}
+/* End Merriweather */
+.menu ul li ul {
+  -webkit-transition: none;
+  -webkit-transform: none;
+}
+.menu ul li ul li a:after {
+  display: none;
+}
+.menu ul li ul li a:hover {
+  background-color: #F73F52;
+}
+.menu ul li:hover ul {
+  -webkit-transition: none;
+  -webkit-transform: none;
+}
+
+.social.trp li a {
+  line-height: 36px;
+  border: 2px solid transparent;
+}
+.social.trp li a:hover {
+  background-color: transparent;
+}
+.social.trp li a.search-toggle:hover {
+  border-color: #F73F52;
+}
+.social.trp li a.search-toggle.active {
+  border-color: #F73F52;
+  border-left-color: transparent;
+}
+.social.trp li a.facebook:hover {
+  color: #3b5998;
+  border-color: #3b5998;
+}
+.social.trp li a.twitter:hover {
+  color: #4099FF;
+  border-color: #4099FF;
+}
+.social.trp li a.youtube:hover {
+  color: #C4302B;
+  border-color: #C4302B;
+}
+.social.trp li a.googleplus:hover {
+  color: #DE5245;
+  border-color: #DE5245;
+}
+.social.trp li a.instagram:hover {
+  color: #885343;
+  border-color: #885343;
+}
+.social.trp li a.tumblr:hover {
+  color: #36465D;
+  border-color: #36465D;
+}
+.social.trp li a.dribbble:hover {
+  color: #E14C86;
+  border-color: #E14C86;
+}
+.social.trp li a.linkedin:hover {
+  color: #007BB6;
+  border-color: #007BB6;
+}
+.social.trp li a.skype:hover {
+  color: #00AFF0;
+  border-color: #00AFF0;
+}
+.social.trp li a.rss:hover {
+  color: #ee802f;
+  border-color: #ee802f;
+}
+.social.trp li a.github:hover {
+  color: #000;
+  border-color: #000;
+}
+.social.trp li a.whatsapp:hover {
+  color: #25D366;
+  border-color: #25D366;
+}
+.social.trp li a.snapchat:hover {
+  color: #FFFC01;
+  border-color: #FFFC01;
+}
+.social.trp li a.foursquare:hover {
+  color: #EF4B78;
+  border-color: #EF4B78;
+}
+.social.trp li a.pinterest:hover {
+  color: #B82B38;
+  border-color: #B82B38;
+}
+.social.trp li a.wordpress:hover {
+  color: #21759A;
+  border-color: #21759A;
+}
+.social.trp li a.reddit:hover {
+  color: #1288DF;
+  border-color: #1288DF;
+}
+.social.trp li a.hackernews:hover {
+  color: #FF6600;
+  border-color: #FF6600;
+}
+.social.trp li a.designernews:hover {
+  color: #3275D6;
+  border-color: #3275D6;
+}
+.social.trp li a.yahoo:hover {
+  color: #420297;
+  border-color: #420297;
+}
+.social.trp li a.buffer:hover {
+  color: #000000;
+  border-color: #000000;
+}
+.social.trp li a.vimeo:hover {
+  color: #1AB7EA;
+  border-color: #1AB7EA;
+}
+.social.trp li a.twitch:hover {
+  color: #6441A4;
+  border-color: #6441A4;
+}
+
+.social.sm li a {
+  line-height: 24px !important;
+}
+
+/*# sourceMappingURL=safari.css.map*/
